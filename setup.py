@@ -16,7 +16,7 @@ setuptools.setup(
     url="https://github.com/eihli/image-table-ocr",
     packages=setuptools.find_packages(),
     package_data={
-        "table_ocr": ["tessdata/table-ocr.traineddata", "tessdata/eng.traineddata"]
+        "table_ocr": ["tessdata/table-ocr.traineddata", "tessdata/kor.traineddata"]
     },
     classifiers=[
         "Programming Language :: Python :: 3",
